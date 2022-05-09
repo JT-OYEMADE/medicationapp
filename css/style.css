@@ -1,0 +1,114 @@
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+.medapp {
+  font-family: "Supermercado One", cursive;
+  color: #033b4a;
+}
+
+/* Utility Class */
+.active {
+  border-bottom: #00d6a3 2px solid;
+}
+.btn-green {
+  background: #00d6a3;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+.store {
+  width: 225px;
+  height: 64px;
+  background: #00d6a3;
+  border-radius: 8px;
+  border: none;
+}
+
+.text-green {
+  color: #00d6a3;
+}
+
+.text-leaf {
+  color: #033b4a;
+}
+
+.w-30 {
+  width: 30%;
+}
+.w-40 {
+  width: 40%;
+}
+.w-60 {
+  width: 60%;
+}
+.w-65 {
+  width: 65%;
+}
+.w-70 {
+  width: 70%;
+}
+
+/* Showcase */
+.showcase {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/Rectangle\ 3.jpg") no-repeat center center/cover;
+  height: 80vh;
+}
+
+.showcase h1 {
+  font-size: 64px;
+  padding-top: 132px;
+  width: 699px;
+  margin: 0 auto;
+}
+
+.showcase p {
+  font-size: 24px;
+  width: 679px;
+  margin: 0 auto;
+}
+
+/* Vaccine */
+.vaccine p {
+  width: 400px;
+  line-height: 40px;
+}
+
+/* Features */
+.features {
+  background: url("../images/Rectangle\ 6.png") no-repeat center center/cover;
+}
+
+.features h5 {
+  font-size: 32px;
+  padding: 111px 0 30px;
+}
+
+/* .features ~ p {
+  font-size: 24px;
+  width: 694px;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* Reviews */
+.reviews {
+  background: url("../images/Vector\ \(2\).png") no-repeat center center/cover;
+  height: 848px;
+}
+
+.reviews p {
+  font-size: 20px;
+  width: 50%;
+  line-height: 48px;
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  background: url("../images/Rectangle\ 9.png");
+  height: 424px;
+}
